@@ -1,0 +1,798 @@
+/* Below extra small devices  */
+@media only screen and (min-width: 2702px) {
+    #description p {
+        max-width: 35%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #contactus ul li a {
+        font-size: 12px;
+    }
+
+    #contactus .contact-det {
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+
+    header .navigation {
+        display: none;
+    }
+
+    header .button {
+        display: none;
+    }
+
+    header .hamburger {
+        display: block;
+    }
+
+    header .nav-down .button {
+        padding: 15px 0;
+    }
+
+    header .nav-down img {
+        width: 100%;
+    }
+
+    .wrapper {
+        padding: 0 15px;
+    }
+
+    #home {
+        min-height: 0;
+    }
+
+    #home .title {
+        padding: 100px 0;
+    }
+
+    #home h1 {
+        font-size: 50px;
+        line-height: 64px;
+    }
+
+    #quotes .wrapper {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    #about {
+        background-image: none;
+    }
+
+    #about .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    #about .empty {
+        background-image: none;
+        /* min-height: 280px; */
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #about h2 {
+        padding-top: 15px;
+    }
+
+    #about p {
+        padding: 5px 0 20px 0;
+        line-height: 30px;
+    }
+
+    #about .para {
+        width: auto;
+        padding: 0;
+    }
+
+    #description {
+        background-image: none;
+    }
+
+    #description .para {
+        grid-area: item1;
+    }
+
+    #description #image {
+        grid-area: item2;
+    }
+
+    #description .wrapper {
+        grid-template-columns: none;
+        grid-template-areas: 'item2'
+            'item1';
+    }
+
+    #description .para {
+        background-image: url(../assets/left.png);
+    }
+
+    #description p {
+        padding: 15px;
+    }
+
+    #services {
+        padding: 70px 0;
+    }
+
+    #services .wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
+
+    #services p {
+        line-height: 30px;
+    }
+
+    #services .para {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 399px;
+    }
+
+    #services h2 {
+        padding: 0 0 10px 0;
+    }
+
+    #review {
+        padding-top: 50px;
+    }
+
+
+    #review .wrapper {
+        padding: 0 15px;
+    }
+
+
+    #review .fade {
+        max-width: 400px;
+        padding-top: 30px;
+    }
+
+    #review .wrapper .para p {
+        padding: 0 15px 15px 15px;
+    }
+
+    #review .slick-next {
+        right: 35%;
+        top: 110%;
+    }
+
+    #review .wrapper .para p {
+        font-size: 14px;
+        letter-spacing: 0px;
+        line-height: 23px;
+        background-color: #f2f3f5;
+    }
+
+    #review .slick-prev {
+        left: 20%;
+        top: 110%;
+    }
+
+    #classblog .wrapper {
+        padding: 0 0 0 16px !important;
+    }
+
+    #contactus {
+        padding: 50px 0;
+    }
+
+    #contactus .wrapper {
+        background-image: none;
+        grid-template-columns: 1fr;
+    }
+
+    #contactus .empty {
+        background-image: url(../assets/contactus.png);
+        min-height: 450px;
+    }
+
+    #contactus h2 {
+        padding-left: 0px;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+
+    #contactus ul {
+        width: 100%;
+        row-gap: 20px;
+    }
+
+    #contactus ul li {
+        font-size: 14px;
+    }
+
+
+    #contactus .contact-det {
+        width: auto;
+        min-height: 200px;
+        padding: 0 10px;
+    }
+
+    #contactus .arrow {
+        display: none;
+    }
+
+    #contactus .cont {
+        width: 20px;
+    }
+
+    #contactus ul li div {
+        column-gap: 5px;
+    }
+
+    #contactus .img {
+        width: 40%;
+    }
+
+    footer .footer-items ul {
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    footer .footer-items {
+        padding: 20px 0;
+    }
+
+    footer .social {
+        padding-bottom: 15px;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 599px) and (min-width:400px) {
+
+    header .navigation {
+        display: none;
+    }
+
+    header .button {
+        display: none;
+    }
+
+    header .hamburger {
+        display: block;
+    }
+
+    header .nav-down .button {
+        padding: 15px 0;
+    }
+
+    header .nav-down img {
+        width: 100%;
+    }
+
+    .wrapper {
+        padding: 0 15px;
+    }
+
+
+    header .nav-down .button {
+        padding: 15px 0;
+    }
+
+    header .nav-down img {
+        width: 100%;
+    }
+
+    #home h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    #home .title {
+        padding: 100px 0;
+    }
+
+
+    #quotes .wrapper {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+
+    #about {
+        background-image: none;
+    }
+
+    #about .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+
+
+    #about p {
+        padding: 20px 0;
+    }
+
+    #about .para {
+        width: auto;
+        padding: 30px 0;
+    }
+
+    #review {
+        padding-top: 50px;
+    }
+
+    #review .fade {
+        max-width: 599px;
+    }
+
+    #review .wrapper {
+        padding: 0 15px;
+    }
+
+    #review .wrapper .para p {
+        padding: 10px 15px;
+    }
+
+    #review .slick-next {
+        right: 35%;
+        top: 110%;
+    }
+
+    #review .wrapper .para p {
+        font-size: 14px;
+        letter-spacing: 0px;
+        line-height: 23px;
+    }
+
+    #review .slick-prev {
+        left: 20%;
+        top: 110%;
+    }
+
+    #description {
+        background-image: none;
+    }
+
+    #description .para {
+        grid-area: item1;
+    }
+
+    #description #image {
+        grid-area: item2;
+    }
+
+    #description .wrapper {
+        grid-template-columns: none;
+        grid-template-areas: 'item2'
+            'item1';
+    }
+
+    #description .para {
+        background-image: url(../assets/left.png);
+    }
+
+    #description p {
+        max-width: 599px;
+        padding: 30px 15px;
+    }
+
+    #services {
+        padding: 50px 0;
+    }
+
+    #about p {
+        line-height: 30px;
+    }
+
+    #services p {
+        line-height: 30px;
+    }
+
+    #services .wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
+
+    #services .para {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 599px;
+    }
+
+    #services h2 {
+        padding: 0 0 10px 0;
+    }
+
+    #classblog {
+        padding: 66px 0 66px 0;
+    }
+
+    #contactus {
+        padding: 50px 0;
+    }
+
+    #contactus .wrapper {
+        background-image: none;
+        grid-template-columns: 1fr;
+    }
+
+    #contactus .empty {
+        background-image: url(../assets/contactus.png);
+        min-height: 602px;
+    }
+
+    #contactus h2 {
+        padding-left: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    #contactus ul {
+        row-gap: 20px;
+    }
+
+    #contactus ul li {
+        font-size: 16px;
+    }
+
+    #contactus ul li div {
+        column-gap: 0px;
+    }
+
+    #contactus .contact-det {
+        width: auto;
+        min-height: 200px;
+    }
+
+    footer .footer-items ul {
+        flex-direction: column;
+    }
+
+
+    footer .footer-items ul {
+        font-size: 18px;
+    }
+
+    footer .footer-items {
+        padding: 20px 0;
+    }
+
+    footer .social {
+        padding-bottom: 15px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) and (min-width: 600px) {
+
+    header .navigation {
+        display: none;
+    }
+
+    header .button {
+        display: none;
+    }
+
+    header .hamburger {
+        display: block;
+    }
+
+    header .nav-down .button {
+        padding: 15px 0;
+    }
+
+    header .nav-down img {
+        width: 100%;
+    }
+
+    .wrapper {
+        padding: 0 15px;
+    }
+
+    #home .title {
+        width: 546px;
+    }
+
+    #about {
+        background-image: none;
+    }
+
+    #about p {
+        padding: 20px;
+    }
+
+    #about h2 {
+        padding-top: 30px;
+    }
+
+    #about .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    #about .para {
+        width: auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    #description {
+        background-image: none;
+    }
+
+    #description .para {
+        grid-area: item1;
+    }
+
+    #description #image {
+        grid-area: item2;
+    }
+
+    #description .wrapper {
+        grid-template-columns: none;
+        grid-template-areas: 'item2'
+            'item1';
+    }
+
+    #description .para {
+        background-image: url(../assets/left.png);
+    }
+
+    #description p {
+        max-width: 767px;
+        padding: 30px 15px;
+    }
+
+    #services {
+        padding: 50px 0;
+    }
+
+    #services .wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
+
+    #services .para {
+        max-width: 767px;
+    }
+
+    #services h2 {
+        padding: 0 0 10px 0;
+    }
+
+    #review {
+        padding: 0 15px;
+    }
+
+    #review .wrapper {
+        padding: 50px 0;
+    }
+
+    #review .fade {
+        max-width: 650px;
+        padding-top: 20px;
+    }
+
+    #review .wrapper .para p {
+        padding: 10px 15px;
+    }
+
+    #review .slick-next {
+        right: 25%;
+        top: 110%;
+    }
+
+    #review .slick-prev {
+        left: 20%;
+        top: 110%;
+    }
+
+    #contactus {
+        padding: 50px 0;
+    }
+
+    #contactus .wrapper {
+        background-image: none;
+        grid-template-columns: 1fr;
+    }
+
+    #contactus .empty {
+        background-image: url(../assets/contactus.png);
+        min-height: 602px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #contactus h2 {
+        padding-left: 0px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+
+    #contactus ul {
+        /* width: auto; */
+        row-gap: 20px;
+    }
+
+    #contactus ul li {
+        font-size: 16px;
+    }
+
+    #contactus ul li div {
+        column-gap: 0px;
+    }
+
+    #contactus .contact-det {
+        width: auto;
+        min-height: 274px;
+    }
+
+    footer .footer-items ul {
+        column-gap: 30px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+    header .nav-down ul {
+        column-gap: 10px;
+    }
+
+    .wrapper {
+        padding: 0 15px;
+    }
+
+    #home .title {
+        width: 546px;
+    }
+
+    #about .wrapper {
+        column-gap: 15px;
+    }
+
+    #about .para {
+        width: auto;
+        padding: 0;
+    }
+
+    #about p {
+        line-height: 30px;
+        padding: 20px 0;
+    }
+
+    #services {
+        padding: 50px 0;
+    }
+
+    #description {
+        background-image: none;
+    }
+
+    #description .para {
+        grid-area: item1;
+    }
+
+    #description #image {
+        grid-area: item2;
+    }
+
+    #description .wrapper {
+        grid-template-columns: none;
+        grid-template-areas: 'item2'
+            'item1';
+    }
+
+    #description .para {
+        background-image: url(../assets/left.png);
+    }
+
+    #description p {
+        max-width: 992px;
+        padding: 40px 15px;
+    }
+
+    #review .wrapper {
+        padding: 50px 0;
+    }
+
+    #review .fade {
+        max-width: 650px;
+    }
+
+    #review .wrapper .para p {
+        padding: 15px 15px;
+    }
+
+    #review .slick-next {
+        right: 25%;
+        top: 110%;
+    }
+
+    #review .slick-prev {
+        left: 20%;
+        top: 110%;
+    }
+
+
+    #classblog {
+        padding: 50px 0px;
+    }
+
+    #contactus {
+        padding: 30px 0px;
+    }
+
+
+    #contactus .wrapper {
+        background-size: 50%;
+        background-position: left;
+        min-height: 402px;
+    }
+
+    #contactus .contact-det {
+        width: auto;
+        min-height: 250px;
+    }
+
+    #contactus h2 {
+        padding-bottom: 46px;
+    }
+
+    #contactus ul {
+        row-gap: 30px;
+    }
+
+    #contactus ul li div {
+        column-gap: 15px;
+    }
+
+    #contactus ul li {
+        font-size: 14px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1199px) and (min-width: 993px) {
+
+    .wrapper {
+        padding: 0 15px;
+    }
+
+    #about .para {
+        width: auto;
+    }
+
+    #review .fade {
+        max-width: 650px;
+    }
+
+    #review .wrapper .para p {
+        padding: 0 15px;
+    }
+
+    #description p {
+        max-width: 320px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width:1250px) and (min-width: 1200px) {
+
+    .wrapper {
+        padding: 0 15px;
+    }
+
+    #about .para {
+        width: auto;
+    }
+}
